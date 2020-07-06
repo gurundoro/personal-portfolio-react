@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Avatar, Grid, Box } from "@material-ui/core";
+import { Typography, Avatar, Grid, Box, Button } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../avatar.jpg";
 
@@ -48,6 +48,7 @@ const Header = () => {
           loop
         />
       </Typography>
+      <Button variant="contained" color="secondary" href="https://drive.google.com/file/d/1d079YwBmhvSLouv2PH8-703FV0RgG4BF/view?usp=sharing" target="_blank">View Resume</Button>
     </Box>
   );
 };

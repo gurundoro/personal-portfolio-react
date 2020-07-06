@@ -51,18 +51,13 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: "Resume",
-    listPath: "/resume",
+    listText: "Education/Experience",
+    listPath: "/experience",
   },
   {
     listIcon: <Apps />,
     listText: "Portfolio",
     listPath: "/portfolio",
-  },
-  {
-    listIcon: <ContactMail />,
-    listText: "Contacts",
-    listPath: "/contacts",
   },
 ];
 
@@ -83,7 +78,7 @@ const Navbar = () => {
       component="div"
       onClick={toggleSlider(slider, false)}
     >
-      <Avatar className={classes.avatar} src={avatar} alt="Russel Crowe" />
+      <Avatar className={classes.avatar} src={avatar} alt="Kudzanayi Dzvairo" />
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
