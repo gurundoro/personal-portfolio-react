@@ -25,11 +25,16 @@ import {
 } from "@material-ui/icons";
 import avatar from "../avatar.jpg";
 
+
+// blue = "#00154F"
+// yellow = "#F4AF1B"
+// beige = "#F2BC94"
+
 // CSS STYLES
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#00154F",
     height: "100%",
   },
   avatar: {
@@ -39,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "#F4AF1B",
   },
 }));
 
@@ -98,13 +103,13 @@ const Navbar = () => {
   return (
     <>
       <Box component="nav">
-        <AppBar position="static" style={{ background: "#222" }}>
+        <AppBar position="static" style={{ background:  "#00154F"}}>
           <Toolbar>
             <IconButton edge="start" onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <ArrowBack style={{ color: "#F4AF1B" }} />
             </IconButton>
-            <Typography variant="h5" style={{ color: "tan" }}>
-              <Link to="/" style={{ color: "tan", textDecoration: "none" }}>
+            <Typography variant="h5" style={{ color: "#F4AF1B" }}>
+              <Link to="/" style={{ color:"#F4AF1B", textDecoration: "none" }}>
                 Portfolio
               </Link>
             </Typography>

@@ -21,7 +21,7 @@ import project4 from "../images/mern-stack.jpg";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
+    background: "#F4AF1B",
     height: "100%",
   },
   gitbutton: {

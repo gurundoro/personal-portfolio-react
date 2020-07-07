@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles(theme => ({
   mainContainer: {
-    background: "#233"
+    background: "#EFC9AF"
   },
   timeLine: {
     position: "relative",
@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid tan",
+      border: "1px solid #104C91",
       right: "40px",
       top: 0
     },
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
   },
   timeLineItem: {
     padding: "1rem",
-    borderBottom: "2px solid tan",
+    borderBottom: "2px solid #104C91",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
@@ -42,28 +42,28 @@ const useStyles = makeStyles(theme => ({
       content: "''",
       position: "absolute"
     },
-    "&:before": {
-      content: "''",
-      position: "absolute",
-      right: "-0.625rem",
-      top: "calc(50% - 5px)",
-      borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
-      borderWidth: "0.625rem",
-      transform: "rotate(45deg)"
-    },
+    // "&:before": {
+    //   content: "''",
+    //   position: "absolute",
+    //   right: "-0.625rem",
+    //   top: "calc(50% - 5px)",
+    //   borderStyle: "solid",
+    //   // borderColor: " #1F8AEE #1F8AEE transparent transparent",
+    //   borderWidth: "0.625rem",
+    //   transform: "rotate(45deg)"
+    // },
     [theme.breakpoints.up("md")]: {
       width: "44%",
       margin: "1rem",
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan"
+        borderColor: "#1F8AC0"
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato"
+        // borderColor: "transparent transparent #1F8AEE #1F8AEE"
       }
     }
   },
@@ -72,8 +72,8 @@ const useStyles = makeStyles(theme => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
-    background: "tomato",
-    color: "white",
+    background: '#1F8AEE',
+    color: '#104C91',
     lineHeight: 1,
     padding: "0.5rem 0 1rem",
     "&:before": {
@@ -92,16 +92,20 @@ const useStyles = makeStyles(theme => ({
     }
   },
   heading: {
-    color: "tomato",
+    color: "#104C91",
     padding: "3rem 0",
     textTransform: "uppercase"
   },
   subHeading: {
-    color: "white",
+    color: '#104C91',
     padding: "0",
     textTransform: "uppercase"
   }
 }));
+
+// beige = '#EFC9AF'
+// blue = '#104C91'
+// lightblue = '#1F8AEE'
 
 const Resume = () => {
   const classes = useStyles();
@@ -130,14 +134,14 @@ const Resume = () => {
             <Typography
               variant="body1"
               aligh="center"
-              style={{ color: "tomato" }}
+              style={{ color: '#1F8AEE' }}
             >
               Columbia University
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
-              style={{ color: "tan" }}
+              style={{ color: '#104C91' }}
             >
               Major in History 
               Minor in Philosophy
@@ -160,14 +164,14 @@ const Resume = () => {
             <Typography
               variant="body1"
               aligh="center"
-              style={{ color: "tomato" }}
+              style={{ color: '#1F8AEE'}}
             >
               CS Space
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
-              style={{ color: "tan" }}
+              style={{ color: '#104C91' }}
             >
             Conducted qualitative and quantitative research on unique projects for clients including NFL, Disney, Nike, ESPN and CitiGroup, that informed future strategic business decisions 
             </Typography>
@@ -189,14 +193,14 @@ const Resume = () => {
             <Typography
               variant="body1"
               aligh="center"
-              style={{ color: "tomato" }}
+              style={{ color: '#1F8AEE'}}
             >
               Flatiron School
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
-              style={{ color: "tan" }}
+              style={{ color: '#104C91' }}
             >
             An immersive 15-week Full Stack Web Development program aimed towards helping students discover the beauty of code through a combination of pair programming, group projects, individual study, presentations and tech blogs.
             </Typography>
@@ -218,14 +222,14 @@ const Resume = () => {
             <Typography
               variant="body1"
               aligh="center"
-              style={{ color: "tomato" }}
+              style={{ color: '#1F8AEE' }}
             >
               Dollaride
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
-              style={{ color: "tan" }}
+              style={{ color: '#104C91' }}
             >
              FrontEnd Engineer for award winning mobile ride-sharing app. Specializing in React-Native with experience in Node and multiple third-party libraries 
             </Typography>

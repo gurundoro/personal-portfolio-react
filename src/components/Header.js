@@ -4,6 +4,9 @@ import { Typography, Avatar, Grid, Box, Button } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../avatar.jpg";
 
+
+
+
 //  CSS STYLES
 const useStyles = makeStyles(theme => ({
   avatar: {
@@ -12,10 +15,10 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1)
   },
   title: {
-    color: "blue"
+    color: "#F4AF1B"
   },
   subtitle: {
-    color: "tan",
+    color: "#F2BC94",
     marginBottom: "3rem"
   },
   typedContainer: {
@@ -48,7 +51,7 @@ const Header = () => {
           loop
         />
       </Typography>
-      <Button variant="contained" color="secondary" href="https://drive.google.com/file/d/1d079YwBmhvSLouv2PH8-703FV0RgG4BF/view?usp=sharing" target="_blank">View Resume</Button>
+      <Button variant="contained" color="primary" href="https://drive.google.com/file/d/1d079YwBmhvSLouv2PH8-703FV0RgG4BF/view?usp=sharing" target="_blank">View Resume</Button>
     </Box>
   );
 };
