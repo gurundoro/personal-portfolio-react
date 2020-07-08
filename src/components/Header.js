@@ -51,7 +51,7 @@ const Header = () => {
           loop
         />
       </Typography>
-      <Button variant="contained" color="primary" href="https://drive.google.com/file/d/1d079YwBmhvSLouv2PH8-703FV0RgG4BF/view?usp=sharing" target="_blank">View Resume</Button>
+      <Button variant="contained" color="primary" href="https://drive.google.com/file/d/1FPqdHBYZZDSaoXFeN5zvVANRaBUzbNEz/view?usp=sharing" target="_blank">View Resume</Button>
     </Box>
   );
 };
