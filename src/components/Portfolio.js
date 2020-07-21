@@ -18,6 +18,7 @@ import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/react.png";
 import project3 from "../images/react+hooks.png";
 import project4 from "../images/mern-stack.jpg";
+import project5 from "../images/react-rails.png";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -52,7 +53,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  JS Con Event Website
+                  Netflix Clone
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   React, React-Router-Dom, Material UI, Mobile-Responsive
@@ -61,11 +62,42 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
             <GitHubIcon/>
-              <Button size="small" color="primary" href='https://github.com/Kudzanayi-Dzvairo/conference-event-site' target="_blank" className='gitbutton'>
+              <Button size="small" color="primary" href='https://github.com/Kudzanayi-Dzvairo/netflix-clone-react' target="_blank" className='gitbutton'>
                 Github
               </Button>
               <ImportantDevicesIcon/>
-              <Button size="small" color="primary" href='https://js-conference.netlify.app' target="_blank">
+              <Button size="small" color="primary" href='https://netflix-landing-clone.netlify.app/' target="_blank">
+                Live Demo
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        {/*Project New*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project 1"
+                height="140"
+                image={project5}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Full Stack Stock Trader
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                 Ruby on Rails , React, React-Router-Dom, Bootstrap
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+            <GitHubIcon/>
+              <Button size="small" color="primary" href='https://github.com/Kudzanayi-Dzvairo/ttp_challenge' target="_blank" className='gitbutton'>
+                Github
+              </Button>
+              <ImportantDevicesIcon/>
+              <Button size="small" color="primary" href='https://ttp-frontend-kd.herokuapp.com/signup' target="_blank">
                 Live Demo
               </Button>
             </CardActions>
@@ -97,6 +129,37 @@ const Portfolio = () => {
               </Button>
               <ImportantDevicesIcon/>
               <Button size="small" color="primary" href='https://african-sceneries.netlify.app/' target="_blank">
+                Live Demo
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        {/*Project 1 moved*/}
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project 1"
+                height="140"
+                image={project2}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  JS Con Event Website
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  React, React-Router-Dom, Material UI, Mobile-Responsive
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+            <GitHubIcon/>
+              <Button size="small" color="primary" href='https://github.com/Kudzanayi-Dzvairo/conference-event-site' target="_blank" className='gitbutton'>
+                Github
+              </Button>
+              <ImportantDevicesIcon/>
+              <Button size="small" color="primary" href='https://js-conference.netlify.app' target="_blank">
                 Live Demo
               </Button>
             </CardActions>
