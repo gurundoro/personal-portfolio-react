@@ -110,7 +110,7 @@ const Navbar = () => {
             </IconButton>
             <Typography variant="h5" style={{ color: "#F4AF1B" }}>
               <Link to="/" style={{ color:"#F4AF1B", textDecoration: "none" }}>
-                Portfolio
+                Menu
               </Link>
             </Typography>
             <MobilRightMenuSlider

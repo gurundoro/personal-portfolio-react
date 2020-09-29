@@ -121,7 +121,7 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2012
+            2019 - Present
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -129,51 +129,21 @@ const Resume = () => {
               aligh="center"
               className={classes.subHeading}
             >
-              Bachelor of Arts
+              Software Engineer
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: '#1F8AEE' }}
             >
-              Columbia University
+              Dollaride
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
               style={{ color: '#104C91' }}
             >
-              Major in History 
-              Minor in Philosophy
-            </Typography>
-          </Box>
-          <Typography
-            variant="h2"
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2014
-          </Typography>
-          <Box component="div" className={classes.timeLineItem}>
-            <Typography
-              variant="h5"
-              aligh="center"
-              className={classes.subHeading}
-            >
-              Cultural Strategist
-            </Typography>
-            <Typography
-              variant="body1"
-              aligh="center"
-              style={{ color: '#1F8AEE'}}
-            >
-              CS Space
-            </Typography>
-            <Typography
-              variant="subtitle1"
-              aligh="center"
-              style={{ color: '#104C91' }}
-            >
-            Conducted qualitative and quantitative research on unique projects for clients including NFL, Disney, Nike, ESPN and CitiGroup, that informed future strategic business decisions 
+              FrontEnd Engineer for award winning mobile ride-sharing app. Specializing in React-Native with experience in Node and multiple third-party libraries 
             </Typography>
           </Box>
           <Typography
@@ -209,7 +179,7 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2019-Present
+            2014
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -217,21 +187,51 @@ const Resume = () => {
               aligh="center"
               className={classes.subHeading}
             >
-              Software Engineer 
+             Cultural Strategist
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
-              style={{ color: '#1F8AEE' }}
+              style={{ color: '#1F8AEE'}}
             >
-              Dollaride
+              CS Space
             </Typography>
             <Typography
               variant="subtitle1"
               aligh="center"
               style={{ color: '#104C91' }}
             >
-             FrontEnd Engineer for award winning mobile ride-sharing app. Specializing in React-Native with experience in Node and multiple third-party libraries 
+            Conducted qualitative and quantitative research on unique projects for clients including NFL, Disney, Nike, ESPN and CitiGroup, that informed future strategic business decisions 
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2008 - 2012
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              Bachelor of Arts 
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: '#1F8AEE' }}
+            >
+              Columbia University
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: '#104C91' }}
+            >
+            Major in History 
+            Minor in Philosophy
             </Typography>
           </Box>
         </Box>
@@ -241,3 +241,4 @@ const Resume = () => {
 };
 
 export default Resume;
+
