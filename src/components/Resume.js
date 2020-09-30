@@ -208,7 +208,7 @@ const Resume = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2008 - 2012
+             2012
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -231,7 +231,6 @@ const Resume = () => {
               style={{ color: '#104C91' }}
             >
             Major in History 
-            Minor in Philosophy
             </Typography>
           </Box>
         </Box>
